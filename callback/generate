@@ -1,0 +1,9 @@
+#!/bin/bash
+# This script generates CALLBACK using AMLEO: http://opengamestudio.org/amleo
+
+DIR=`dirname $0`
+MOTOR=$DIR/../../motor/motor
+GEN=amleo.py
+
+# 01.CB.
+$GEN $DIR/01*/cfg $DIR/01*/t $MOTOR/01*/v $DIR/01*/v

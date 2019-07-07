@@ -1,0 +1,5 @@
+AMLEO Flags
+# Allow undefined symbols.
+LIST(APPEND BUILD_FLAGS "-s ERROR_ON_UNDEFINED_SYMBOLS=0")
+# Use Bind.
+LIST(APPEND BUILD_FLAGS "--bind")
